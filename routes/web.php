@@ -19,8 +19,11 @@ Route::get('/', function () {
 
 
 Route::view('nueva', 'nueva-poliza');
+Route::view('frame', 'frame');
 
 
 Route::view('prueba2', 'template');
 Route::post('generar', "Polizas@generar");
-
+Route::get("vue", function(){
+    return view("vue2");
+});

@@ -58,6 +58,7 @@
 
         <div id="tipo" class="tabcontent">
             <h3>Tipo de declación</h3>
+            
             <label>Regimen</label>
             <select class="form-control select" name=regimen1>
                 <option value="ID" selected>ID: Importacion Directa</option>
